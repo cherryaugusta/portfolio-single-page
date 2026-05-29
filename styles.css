@@ -65,7 +65,7 @@ a {
   color: var(--primary);
   text-decoration: none;
   word-break: break-word;
-  transition: color var(--transition), opacity var(--transition), transform var(--transition);
+  transition: all var(--transition);
 }
 
 a:hover {
@@ -389,59 +389,54 @@ hr {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 54px;
-  padding: .85rem 1.45rem;
+  min-height: 56px;
+  padding: 0 1.6rem;
   border-radius: 999px;
   font-weight: 700;
-  font-size: 1.02rem;
-  letter-spacing: -.01em;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 1.05rem;
+  letter-spacing: -0.015em;
+  transition: all 280ms cubic-bezier(0.4, 0.0, 0.2, 1);
   position: relative;
   overflow: hidden;
-  border: none;
-  cursor: pointer;
 }
 
 .button:hover {
-  transform: translateY(-3px) scale(1.03);
-  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.25);
+  transform: translateY(-4px) scale(1.04);
 }
 
 .button-primary {
-  background: linear-gradient(135deg, #2563eb, #1e40af);
-  color: white;
-  box-shadow: 0 10px 30px -5px rgba(37, 99, 235, 0.4),
-              inset 0 1px 0 rgba(255,255,255,0.3);
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: #ffffff;
+  box-shadow: 0 10px 30px -5px rgb(37 99 235 / 50%);
 }
 
 .button-primary:hover {
-  background: linear-gradient(135deg, #1e40af, #1e3a8a);
-  box-shadow: 0 15px 35px -5px rgba(37, 99, 235, 0.5),
-              0 8px 20px rgba(37, 99, 235, 0.3);
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  box-shadow: 0 20px 45px -8px rgb(37 99 235 / 60%);
 }
 
 .button-secondary {
-  background: rgba(255, 255, 255, 0.12);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.95);
+  color: #0f172a;
+  border: 1px solid rgba(255,255,255,0.4);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .button-secondary:hover {
-  background: rgba(255, 255, 255, 0.22);
-  border-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+  background: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
 .button-ghost {
   color: var(--hero-text);
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, .3);
+  border: 1px solid rgba(255, 255, 255, 0.35);
 }
 
 .button-ghost:hover {
-  border-color: rgba(255, 255, 255, .6);
-  background: rgba(255, 255, 255, .08);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.7);
 }
 
 .section {
@@ -476,17 +471,9 @@ hr {
   gap: 1.25rem;
 }
 
-.card-grid.two {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.card-grid.three {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.card-grid.four {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
+.card-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.card-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.card-grid.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
 .card,
 .project-card {
@@ -731,9 +718,6 @@ hr {
   color: #dbe7fb;
   font-weight: 500;
   transition: all var(--transition);
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
 }
 
 .footer-links a:hover {
