@@ -57,9 +57,9 @@
 
     <!-- HERO -->
     <section id="hero" class="hero" aria-labelledby="hero-heading">
-      <div class="container hero-grid hero-grid-enhanced">
+      <div class="container hero-grid hero-grid-full">
         <div class="hero-copy">
-          <p class="eyebrow">London, United Kingdom</p>
+          <p class="eyebrow">LONDON, UNITED KINGDOM</p>
           <h1 id="hero-heading">
             <span class="hero-title-primary">Software Engineer</span>
             <span class="hero-title-secondary">building backend systems, full-stack applications, and reviewable AI-assisted workflows</span>
@@ -89,31 +89,34 @@
             <a class="button button-ghost" href="#contact">Contact</a>
           </div>
         </div>
+      </div>
 
-        <aside class="hero-aside" aria-label="Hero right column">
-          <div class="hero-stack">
-            <div class="hero-panel hero-summary-panel hero-stack-card" aria-label="Professional summary">
-              <p class="panel-label">Professional summary</p>
-              <h2>Portfolio work centred on strong engineering fundamentals across backend, frontend, and workflow systems</h2>
-              <p class="hero-summary-text">
-                My portfolio combines Python and Django backend engineering, TypeScript-based frontend delivery in React and Angular, PostgreSQL and Redis-backed workflows, Celery and Channels for asynchronous and real-time behaviour, and Docker-based reproducibility. The strongest repositories also add auditability, evaluation, governance, and reviewable AI-assisted workflow design.
-              </p>
-            </div>
-
-            <div class="hero-panel hero-core-panel hero-stack-card" aria-label="Core themes">
-              <p class="panel-label">Core themes</p>
-              <h2>Backend systems, frontend engineering, typed integration, and reproducible delivery</h2>
-              <ul class="tag-list tag-list-core" aria-label="Core technology themes">
-                <li>Python application engineering</li>
-                <li>Django and DRF APIs</li>
-                <li>React and Angular frontends</li>
-                <li>TypeScript contracts and UI state</li>
-                <li>PostgreSQL, Redis, Celery, Channels</li>
-                <li>Docker-based local reproducibility</li>
-              </ul>
-            </div>
+      <!-- Professional Summary + Core Themes -->
+      <div class="container hero-summary-section">
+        <div class="hero-summary-grid">
+          <!-- Professional Summary -->
+          <div class="hero-panel hero-summary-panel hero-stack-card">
+            <p class="panel-label">Professional summary</p>
+            <h2>Portfolio work centred on strong engineering fundamentals across backend, frontend, and workflow systems</h2>
+            <p class="hero-summary-text">
+              My portfolio combines Python and Django backend engineering, TypeScript-based frontend delivery in React and Angular, PostgreSQL and Redis-backed workflows, Celery and Channels for asynchronous and real-time behaviour, and Docker-based reproducibility. The strongest repositories also add auditability, evaluation, governance, and reviewable AI-assisted workflow design.
+            </p>
           </div>
-        </aside>
+
+          <!-- Core Themes -->
+          <div class="hero-panel hero-core-panel hero-stack-card">
+            <p class="panel-label">Core themes</p>
+            <h2>Backend systems, frontend engineering, typed integration, and reproducible delivery</h2>
+            <ul class="tag-list tag-list-core" aria-label="Core technology themes">
+              <li>Python application engineering</li>
+              <li>Django and DRF APIs</li>
+              <li>React and Angular frontends</li>
+              <li>TypeScript contracts and UI state</li>
+              <li>PostgreSQL, Redis, Celery, Channels</li>
+              <li>Docker-based local reproducibility</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -256,7 +259,6 @@
           </div>
         </div>
 
-        <!-- Flagship -->
         <p class="section-kicker" style="margin-top:2rem; margin-bottom:.8rem;">Flagship</p>
         <div class="project-list">
           <article class="project-card project-card-featured">
@@ -312,7 +314,6 @@
           </article>
         </div>
 
-        <!-- Featured -->
         <p class="section-kicker" style="margin-top:2.5rem; margin-bottom:.8rem;">Featured</p>
         <div class="card-grid two">
           <article class="card">
@@ -340,7 +341,6 @@
           </article>
         </div>
 
-        <!-- Angular -->
         <p class="section-kicker" style="margin-top:2.5rem; margin-bottom:.8rem;">Angular and contract-aware projects</p>
         <div class="card-grid two">
           <article class="card">
