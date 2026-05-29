@@ -875,3 +875,15 @@ hr {
   grid-column: 1 / -1;
   margin-top: 1.5rem;
 }
+
+.form-actions.centered-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.form-actions.centered-buttons .button {
+  min-width: 180px;
+}
