@@ -65,7 +65,7 @@ This is a long-running process. Press CTRL + C when you are finished previewing 
 3.	Click Settings → Pages
 4.	Under Build and deployment, select GitHub Actions
 5.	The workflow at .github/workflows/deploy.yml handles the rest
-Expected live URL:
+Live URL:
 ```
 https://cherryaugusta.github.io/portfolio-single-page/
 ```
