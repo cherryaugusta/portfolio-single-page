@@ -471,9 +471,17 @@ hr {
   gap: 1.25rem;
 }
 
-.card-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.card-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.card-grid.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.card-grid.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card-grid.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.card-grid.four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
 
 .card,
 .project-card {
@@ -673,7 +681,7 @@ hr {
     radial-gradient(circle at top right, rgba(88, 138, 255, .16), transparent 30%),
     radial-gradient(circle at bottom left, rgba(15, 118, 110, .14), transparent 28%),
     linear-gradient(135deg, #08111f, #132039);
-  color: #fff;
+  color: #ffffff;
   border-radius: 24px;
   padding: 1.85rem;
   display: flex;
@@ -683,6 +691,25 @@ hr {
   box-shadow: var(--shadow-strong);
   position: relative;
   overflow: hidden;
+}
+
+.cta-panel h2,
+.cta-panel p {
+  color: #ffffff;
+}
+
+.cta-panel .section-kicker-light {
+  color: #c3d4ff;
+}
+
+.cta-panel > * {
+  position: relative;
+  z-index: 1;
+}
+
+.section-cta {
+  padding-top: 1.15rem;
+  padding-bottom: 4.25rem;
 }
 
 .site-footer {
