@@ -850,3 +850,28 @@ hr {
     padding: 1rem;
   }
 }
+
+.contact-primary-card,
+.contact-action-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contact-primary-card .contact-facts {
+  flex-grow: 1;
+}
+
+.contact-action-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-action-card .form-note {
+  flex-grow: 1;
+}
+
+.contact-preferences-card {
+  grid-column: 1 / -1;
+  margin-top: 1.5rem;
+}
