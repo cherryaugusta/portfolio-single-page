@@ -405,13 +405,13 @@ hr {
 }
 
 .button-primary {
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
   color: #ffffff;
   box-shadow: 0 10px 30px -5px rgb(37 99 235 / 50%);
 }
 
 .button-primary:hover {
-  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  background: linear-gradient(135deg, #1e40af, #1e3a8a);
   box-shadow: 0 20px 45px -8px rgb(37 99 235 / 60%);
 }
 
@@ -471,9 +471,17 @@ hr {
   gap: 1.25rem;
 }
 
-.card-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.card-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.card-grid.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.card-grid.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card-grid.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.card-grid.four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
 
 .card,
 .project-card {
