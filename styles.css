@@ -153,7 +153,7 @@ hr {
   position: sticky;
   top: 0;
   z-index: 60;
-  background: rgba(8, 17, 31, .78);
+  background: rgba(8, 17, 31, .95);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(255, 255, 255, .08);
   box-shadow: 0 10px 30px rgba(8, 17, 31, .08);
@@ -182,7 +182,7 @@ hr {
 }
 
 .main-nav a {
-  color: #dce7fb;
+  color: #e0e9ff;
   padding: .68rem .94rem;
   border-radius: 999px;
   font-weight: 600;
@@ -190,12 +190,12 @@ hr {
 
 .main-nav a.active,
 .main-nav a[aria-current="page"] {
-  background: rgba(255, 255, 255, .14);
+  background: rgba(255, 255, 255, .18);
   color: #fff;
 }
 
 .main-nav a:hover {
-  background: rgba(255, 255, 255, .08);
+  background: rgba(255, 255, 255, .12);
 }
 
 .nav-toggle {
@@ -271,23 +271,23 @@ hr {
 }
 
 .metric {
-  background: rgba(255, 255, 255, .08);
-  border: 1px solid rgba(255, 255, 255, .11);
+  background: rgba(255, 255, 255, .09);
+  border: 1px solid rgba(255, 255, 255, .15);
   border-radius: 18px;
   padding: .95rem 1rem;
   box-shadow: var(--shadow-xs);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
 }
 
 .metric strong {
   display: block;
-  color: var(--hero-text);
+  color: #ffffff;
   font-size: .98rem;
   margin-bottom: .2rem;
 }
 
 .metric span {
-  color: var(--hero-text-soft);
+  color: #e0e9ff;
   font-size: .92rem;
 }
 
@@ -304,12 +304,12 @@ hr {
 }
 
 .hero-panel {
-  background: rgba(255, 255, 255, .08);
-  border: 1px solid rgba(255, 255, 255, .12);
+  background: rgba(255, 255, 255, .09);
+  border: 1px solid rgba(255, 255, 255, .18);
   border-radius: var(--radius);
   padding: 1.35rem;
   box-shadow: var(--shadow);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
 }
 
 .hero-summary-panel {
@@ -333,7 +333,7 @@ hr {
 }
 
 .hero-summary-text {
-  color: var(--hero-text-soft);
+  color: #e0e9ff;
   margin: 0;
 }
 
@@ -341,19 +341,19 @@ hr {
 .hero .hero-panel p,
 .hero .hero-panel li,
 .hero .hero-panel span {
-  color: var(--hero-text-soft);
+  color: #e0e9ff;
 }
 
 .hero .hero-copy .eyebrow,
 .hero .hero-panel .panel-label {
-  color: var(--hero-text-muted);
+  color: #bfd2f4;
 }
 
 .hero .hero-copy h1,
 .hero .hero-panel h2,
 .hero .metric strong,
 .hero .tag-list-core li {
-  color: var(--hero-text);
+  color: #ffffff;
 }
 
 .tag-list-core {
@@ -370,8 +370,8 @@ hr {
   padding: .42rem .72rem;
   border-radius: 12px;
   background: rgba(255, 255, 255, .10);
-  border: 1px solid rgba(255, 255, 255, .12);
-  color: var(--hero-text);
+  border: 1px solid rgba(255, 255, 255, .18);
+  color: #ffffff;
   font-size: .88rem;
   font-weight: 600;
 }
@@ -429,14 +429,14 @@ hr {
 }
 
 .button-ghost {
-  color: var(--hero-text);
+  color: #e0e9ff;
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.45);
 }
 
 .button-ghost:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.75);
 }
 
 .section {
@@ -471,22 +471,14 @@ hr {
   gap: 1.25rem;
 }
 
-.card-grid.two {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.card-grid.three {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.card-grid.four {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
+.card-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.card-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.card-grid.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
 .card,
 .project-card {
-  background: rgba(255, 255, 255, .92);
-  border: 1px solid rgba(217, 226, 239, .92);
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 1.45rem;
@@ -497,7 +489,7 @@ hr {
 .card h3,
 .project-card h2,
 .project-card h3 {
-  color: var(--bg);
+  color: #0f172a;
 }
 
 .project-list {
@@ -537,7 +529,7 @@ hr {
   padding: .38rem .72rem;
   border-radius: 999px;
   background: var(--primary-soft);
-  color: #1746b8;
+  color: #1e40af;
   font-size: .79rem;
   font-weight: 800;
   letter-spacing: .01em;
@@ -633,8 +625,8 @@ hr {
 }
 
 .contact-fact {
-  background: linear-gradient(180deg, rgba(220, 232, 255, .34), rgba(255, 255, 255, .9));
-  border: 1px solid rgba(191, 210, 246, .78);
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
   border-radius: 16px;
   padding: .95rem 1rem;
   box-shadow: var(--shadow-xs);
@@ -652,7 +644,7 @@ hr {
 
 .contact-fact-value {
   display: block;
-  color: var(--bg);
+  color: #0f172a;
   font-weight: 600;
   line-height: 1.5;
 }
