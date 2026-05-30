@@ -1,6 +1,6 @@
 # Cherry Augusta | Single-Page Portfolio
 
-Single-page personal portfolio website for Cherry Augusta, a London-based Software Engineer.
+Single-page personal portfolio website of Cherry Augusta, a London-based Software Engineer.
 
 ## Live site
 
