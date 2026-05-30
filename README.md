@@ -42,7 +42,7 @@ Python, Django, DRF, TypeScript, React, Angular, PostgreSQL, Redis, Celery, Djan
 | Angular and contract-aware | EcoRoute LEZ Optimiser | — |
 | Angular and contract-aware | PolicyPulse | — |
 
-## Project Screenshots (Multi-Page Portfolio Evidence)
+## Project Screenshots
 
 Screenshots are stored under `screenshots/<project-folder>/` relative to the repository root and embedded in the Projects section of `index.html` using semantic `<figure>` and `<img>` elements with descriptive alt text, `loading="lazy"`, and `decoding="async"`.
 
@@ -155,16 +155,6 @@ Live URL:
 ```
 https://cherryaugusta.github.io/portfolio-single-page/
 ```
-
-## Implementation notes
-
-- Built with semantic HTML5, external CSS, and external JavaScript
-- Sticky navbar with smooth-scroll and active-section highlighting via IntersectionObserver
-- Fully responsive: desktop, tablet, and mobile
-- Accessibility: skip link, ARIA labels, keyboard navigation, focus-visible styles, reduced-motion support
-- Project screenshots embedded with `<figure>` and `<img>`, descriptive alt text, `loading="lazy"`, and `decoding="async"`
-- Screenshot composite layout for Gmail MCP Server shows all five setup and verification steps as a main image above a four-tile strip
-- Zero build step — pure static files, GitHub Pages compatible
 
 ## License
 
